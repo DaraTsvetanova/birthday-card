@@ -42,3 +42,9 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .voucher {
+    flex-direction: column;
+  }
+}
